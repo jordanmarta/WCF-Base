@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfRefactoring.Service", "WcfRefactoring.Service\WcfRefactoring.Service.csproj", "{7BF1E101-0D81-4AB8-9BB3-E7EB0B53F2BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WcfRefactoring.Service", "WcfRefactoring.Service\WcfRefactoring.Service.csproj", "{7BF1E101-0D81-4AB8-9BB3-E7EB0B53F2BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfRefactoring.Contracts", "WcfRefactoring.Contracts\WcfRefactoring.Contracts.csproj", "{5F6134DA-1449-4844-AE81-3E4C7FD305A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WcfRefactoring.Contracts", "WcfRefactoring.Contracts\WcfRefactoring.Contracts.csproj", "{5F6134DA-1449-4844-AE81-3E4C7FD305A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2F2A43F8-0F4E-4B10-8D98-83818901B407}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfRefactoring.NetFrameworkClient", "WcfRefactoring.NetFrameworkClient\WcfRefactoring.NetFrameworkClient.csproj", "{707702A6-31D1-4799-BAE6-3197827EFCED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfRefactoring.NetFrameworkServer", "WcfRefactoring.NetFrameworkServer\WcfRefactoring.NetFrameworkServer.csproj", "{530CC19B-E46C-4EDC-B36F-F9ED0EED5A79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WcfRefactoring.ASPNetCoreWebAPI", "WcfRefactoring.ASPNetCoreWebAPI\WcfRefactoring.ASPNetCoreWebAPI.csproj", "{DC1FC542-4273-431E-B996-A9F6EBC7F8A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfRefactoring.NetFrameworkClient2", "WcfRefactoring.NetFrameworkClient2\WcfRefactoring.NetFrameworkClient2.csproj", "{84F4D4CF-B5AC-4A00-9AE7-C5A27A94A423}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,14 @@ Global
 		{530CC19B-E46C-4EDC-B36F-F9ED0EED5A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{530CC19B-E46C-4EDC-B36F-F9ED0EED5A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{530CC19B-E46C-4EDC-B36F-F9ED0EED5A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1FC542-4273-431E-B996-A9F6EBC7F8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1FC542-4273-431E-B996-A9F6EBC7F8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1FC542-4273-431E-B996-A9F6EBC7F8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1FC542-4273-431E-B996-A9F6EBC7F8A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F4D4CF-B5AC-4A00-9AE7-C5A27A94A423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F4D4CF-B5AC-4A00-9AE7-C5A27A94A423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F4D4CF-B5AC-4A00-9AE7-C5A27A94A423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F4D4CF-B5AC-4A00-9AE7-C5A27A94A423}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +58,8 @@ Global
 		{5F6134DA-1449-4844-AE81-3E4C7FD305A1} = {2F2A43F8-0F4E-4B10-8D98-83818901B407}
 		{707702A6-31D1-4799-BAE6-3197827EFCED} = {77674F02-AFF9-475D-A186-4ACA12CB8A5A}
 		{530CC19B-E46C-4EDC-B36F-F9ED0EED5A79} = {77674F02-AFF9-475D-A186-4ACA12CB8A5A}
+		{DC1FC542-4273-431E-B996-A9F6EBC7F8A3} = {77674F02-AFF9-475D-A186-4ACA12CB8A5A}
+		{84F4D4CF-B5AC-4A00-9AE7-C5A27A94A423} = {77674F02-AFF9-475D-A186-4ACA12CB8A5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D71EB2D8-979B-4D0D-A5C7-91C9F60642F6}
